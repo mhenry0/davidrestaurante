@@ -1,0 +1,150 @@
+
+.banner {
+    
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner h2 {
+    background-color: #2fa931ea; 
+    background-color: #;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer {
+    background: #055aaa;
+    color: #ffffff;
+    padding: 10px ;
+    text-align: center;
+}
+
+.customheader{
+    background-color: #2fa931ea; 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-family: lato;
+    font-weight: 500;
+    font-style: bold;
+}
+
+
+.banner1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+    /* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+
+    /* Full height container to center the button */
+    .whatsapp {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+    }
+
+    /* WhatsApp Button */
+    .whatsapp-button {
+        background-color: #13d71c; /* WhatsApp green color */
+        color: white;
+        border: none;
+        border-radius: 5px; /* Rounded corners */
+        padding: 10px 20px; /* Padding for the button */
+        text-align: center; /* Center text inside the button */
+        text-decoration: none;
+        font-size: 16px; /* Font size */
+        display: inline-flex; /* Use flexbox to center content */
+        align-items: center; /* Center content vertically inside the button */
+        justify-content: center; /* Center content horizontally inside the button */
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .whatsapp-button:hover {
+        background-color: #004cff; /* Darker green for hover effect */
+        color: white;
+        text-decoration: none;
+    }
+
+  
+.centered {
+  font-family: 'Times New Roman', serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #ffffff; /* Optional: color for better readability */
+  max-width: 90%; /* Ensure text doesn't overflow on smaller screens */
+  font-family: lato;
+  font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  .centered {
+    font-size: 100px; /* Large size for large screens */
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .centered {
+    font-size: 120px; /* Slightly smaller size for medium screens */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .centered {
+    font-size: 60px; /* Smaller size for smaller screens */
+  }
+}
+
+/* Add WA floating button CSS */
+.floating {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 120px;
+  left: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+ }
+ 
+ .fab-icon {
+  margin-top: 16px;
+ }
+
+
+ .responsive-button {
+  margin-top: 80px;
+  width: 100%; /* Button will take up 100% of its container's width */
+  height: 45px; /* Maintains original height */
+  font-size: calc(1em + 0.5vw); /* Font size adjusts based on viewport width */
+  background-color: #111fb6;
+  color: #25d366;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 0 20px; /* Adds some padding for better readability on smaller screens */
+  text-align: center; /* Ensures text stays centered within the button */
+}
+
+.contact{
+  font-family: lato;
+}
